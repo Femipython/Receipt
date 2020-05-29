@@ -1,0 +1,201 @@
+body { box-sizing: border-box;
+	   font-family: 'Noto Sans JP',sans-serif;}
+
+/*Navbar housing the brand name*/
+.navbar-light .navbar-brand {
+	color:#083D77;
+	font-size: 1.5rem;
+	font-weight: bold;
+	opacity: 1;}
+
+ /*Styling for over effect on brand name*/
+.navbar-light .navbar-brand:hover{color:#083D77;}
+
+/*Container holding brand name*/
+.containerHolder{margin-bottom: 120px;}
+
+/*Padding of the brand to the left*/
+.navbar-brand{padding-left: 30px;}
+
+/*infoGraphic used in the signup page*/
+.infoGraphic{margin-top: 50px;}
+
+/*inforGraphic image*/
+img{height: 384.09px;}
+
+/*Signup call*/
+#signUp{color:#083D77; 
+	    height: 30px;
+	    font-family: 'Noto Sans JP';
+	    font-weight: bold;
+	    font-size: 1.6rem;
+	    text-align: justify;
+	}
+
+/*Explaination and call to action*/
+#callAction{text-align: justify;
+          letter-spacing: 0px;
+          color:#083D77;
+		  font-size: 0.9rem;
+		  font-family: 'Noto Sans JP',sans-serif;
+	      }
+
+/*Input field for user details*/
+.userDetail{color: #1a202c;
+	  text-align: justify;
+	  font-family: 'Noto Sans JP',sans-serif;
+	  background-color: #fff;
+	  line-height:20px;
+	  width: 100%;
+	  padding: 1rem;
+	  margin-top: 10px;
+	  margin-bottom: 2px;
+	  border: 2px solid #EBEBD3;
+	  border-radius: 10px;}
+
+/*input field for password*/
+.input-icon{color: #1a202c;
+	  text-align: justify;
+	  font-family: 'Noto Sans JP',sans-serif;
+	  background-color: #fff;
+	  line-height:20px;
+	  width: 100%;
+	  padding: 1rem;
+	  margin-top: 10px;
+	  margin-bottom: 2px;
+	  border: 2px solid #EBEBD3;
+	  border-radius: 10px;}
+
+/*Styling password input fields housed in a div*/
+.input-icon input {border: 0;}
+
+
+/*Font awesome icons styling*/
+.fa,.fa-eye,.fa-eye-slash,.icon {
+	   color:#083D778A;  
+       float: right; 
+       opacity: 1; }
+
+.fa,.fa-eye,.fa-eye-slash,.icon:hover{cursor: pointer;}
+
+/*Styling input placeholder*/
+input::placeholder{color: #083D7789; opacity: 1;}
+
+input{width: 95%;}
+
+input:focus{outline: none;}
+
+/*Styling the register button*/
+#button{margin-top: 15px;
+		margin-left:auto;
+		display: block;
+		font-family: 'Noto Sans JP',sans-serif;
+		font-size: 0.9rem;
+		border: 2px solid #F95738;
+		width: 200px;
+		height: 50px;
+		background-color: #fff;
+		color: #F95738;
+		text-align: center;
+		opacity: 0.9;
+		border-radius: 10px;}
+
+#button:hover{background-color:#F95738;
+			  color: #fff;}
+
+
+/*Styling message for an already user*/
+#callAction2{margin-top:15px;
+			margin-bottom: 5px;
+	         font-family: 'Noto Sans JP',sans-serif;
+	         font-size:0.8rem;
+	         text-align:  right;
+	         color: #083D77;}
+
+/*Styling link to reset password*/
+
+#reset a {  font-weight:bold;
+            color: #F95738;
+            font-family: 'Noto Sans JP',sans-serif;
+	        font-size:0.7rem;
+	        text-decoration: underline;}
+
+#reset{      margin-top:5px;
+			 margin-bottom: 30px;
+	         font-family: 'Noto Sans JP',sans-serif;
+	         font-size:0.8rem;
+	         text-align:  right;
+	         color: #083D77;}
+
+
+
+
+/*Responsiveness for different screen size*/
+@media screen and (max-width: 320px){
+			.containerHolder{margin-bottom: 20px;}
+
+			.navbar-brand{padding-left:0;}
+
+			.infoGraphic{margin-top: 0; display: none;}
+
+			#signUp{font-size: 0.9rem; height: 40px; }
+
+			#button {margin-left: auto; margin-right: auto;}
+
+			#callAction2 {text-align: justify;}
+
+			#reset{text-align: center;}
+
+			input{ width: 90%; }
+}
+  
+
+@media screen and (max-width: 375px){
+
+			.containerHolder{margin-bottom: 20px;}
+
+			.navbar-brand{padding-left:0;}
+
+			.navbar {position: static;}
+
+			.infoGraphic{margin-top: 0; display: none;}
+
+			#signUp{font-size: 0.9rem; height: 20px;}
+
+			#button {margin-left: auto; margin-right: auto;}
+
+			#callAction2 {text-align: justify;} 
+
+			#reset{text-align: center;}
+
+			input{ width: 90%; }
+}
+
+@media screen and (max-width: 425px){
+			.containerHolder{margin-bottom: 20px;}
+
+			.navbar-brand{padding-left:0;}
+
+			.navbar {position: static;}
+
+			.infoGraphic{margin-top: 0; display: none;}
+
+			#signUp{font-size: 0.9rem; height: 20px;}
+
+			#button {margin-left: auto; margin-right: auto;}
+
+			#callAction2 {text-align: center;} 
+
+			#reset{text-align: center;}
+
+			input{ width: 90%; }
+}
+
+
+@media screen and (max-width: 768px){
+			.containerHolder{margin-bottom: 15px;}
+			.navbar {position: static;}
+			.navbar-brand{padding-left:0;}
+ 			#signUp{margin-top: 30px; font-size: 1.3rem; height: 20px;}
+}
+
